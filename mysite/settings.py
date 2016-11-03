@@ -25,7 +25,7 @@ SECRET_KEY = 'ucl8_2qu%&bv9njksm@wlcy81qnd+@a@yj3bdc#p^l6u$#j9sr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [] # need to set 'drizham.pythonanywhere.com' here
+ALLOWED_HOSTS = ['*'] # need to set 'drizham.pythonanywhere.com' here
                    # or a very insecure ALLOWED_HOSTS = ['*']
 
 # Application definition
